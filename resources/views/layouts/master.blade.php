@@ -12,7 +12,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
   <title>Plantilla Inicial</title>
 
-  <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="{{asset('css/app.css')}}">
 
 </head>
 <body class="hold-transition sidebar-mini">
@@ -302,7 +302,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 </div>
 <!-- ./wrapper -->
 
-<script src="/js/app.js"></script>
+<script src="{{asset('js/app.js')}}"></script>
 
 </body>
 </html>
